@@ -1,0 +1,118 @@
+// -*- mode: jsonc -*-
+{
+    //"layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 37, // Waybar height (to be removed for auto height)
+    // "width": 1920, // Waybar width
+    "spacing": 3, // Gaps between modules (4px)
+
+
+	
+   
+
+    // Choose the order of the modules
+    "modules-left": [
+	    "hyprland/workspaces",
+    ],
+
+    "modules-center": [
+	    "clock",
+    ],
+
+
+    "modules-right": [
+	//"mpd",
+	//"idle_inhibitor",
+	"tray",
+	"network",
+	"cpu",
+	"memory",
+	"battery",
+	"pulseaudio",
+    ],
+
+
+
+
+
+
+    "hyprland/workspaces": {
+	    "disable-scroll": true,
+	    "all-outputs": true,
+	    "warp-on-scroll": false,
+	    "format": "{name}: {icon}",
+	    "format-icons": {
+		    "1": "ENT",
+		    "2": "TER",
+		    "3": "DEV",
+		    "4": "ETC",
+	   "urgent": "",
+	   "active": "⸸",
+	   "default": ""
+	    }
+    },
+
+
+
+
+    "clock": {
+	"format":"{:%a %d -  %H:%M}",
+    },
+
+
+
+
+
+    "cpu": {
+	    "format": "{usage}% ",
+    },
+
+
+    "tray": {
+	// "icon-size": 21,
+	"spacing": 10,
+	// "icons": {
+	//   "blueman": "bluetooth",
+	//   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
+	// }
+    },
+
+    "memory": {
+	    "format": "{}% "
+    },
+
+
+    "network": {
+	    "format-ethernet": "Connected",
+	    "format-linked": "No IP",
+	    "format-disconnected": "Disconnected ⚠",
+	    "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+
+
+    "battery":{
+	"interval": 60,	
+    },
+
+
+
+    "pulseaudio": {
+	    "scroll-step": 5, // %, can be a float
+	    "format": "{volume}% {icon} {format_source}",
+	    "format-muted": " {format_source}",
+	    "format-source": "{volume}% ",
+	    "format-source-muted": "",
+	    "format-icons": {
+		    "headphone": "",
+		    "hands-free": "",
+		    "headset": "",
+		    "phone": "",
+		    "portable": "",
+		    "car": "",
+		    "default": ["", "", ""]
+	    },
+	    "on-click": "pavucontrol"
+    },
+
+
+}
