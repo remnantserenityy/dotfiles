@@ -1,0 +1,94 @@
+@import "rose-pine.css";
+
+* {
+    border: none;
+    border-radius: 6px;
+    min-height: 15px;
+    color: #ebe6d3;
+    font-family: "MapleMono";
+    font-weight: 900;
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: #000000;
+    color: @rose;
+}
+
+tooltip {
+    background-color: @base;
+    border: 2px solid @crust;
+}
+
+#pulseaudio {
+    margin: 6px 6px 2px 0px;
+    padding: 2px 8px;
+    /*color: @rose;*/
+    color: #b77e64;
+}
+
+#workspaces {
+    margin: 6px 0px 2px 6px;
+    color: @iris;
+    border-radius: 6px;
+}
+
+#workspaces button {
+    all: initial;
+    min-width: 0;
+    padding: 6px 6px;
+    color: @iris;
+}
+
+#workspaces button.focused {
+    color: @text;
+}
+
+#workspaces button.urgent {
+    color: @text;
+}
+
+
+
+#center{
+	margin-top: 5px;
+}
+
+
+#clock {
+	color: #aa0507;
+	/*color: #de6e7c;*/
+	font-weight: 900;
+	font-size: 25px;
+}
+
+
+
+
+
+#tray{
+    margin: 6px 0px 2px 0px;
+    padding: 6px 6px;
+
+}
+
+#network{
+    margin: 6px 0px 2px 0px;
+    padding: 2px 8px;
+}
+
+#cpu{
+    margin: 6px 0px 2px 0px;
+    padding: 2px 8px;
+}
+
+#battery{
+    margin: 6px 0px 2px 0px;
+    padding: 2px 8px;
+    color: @teal;
+}
+
+#memory{
+    margin: 6px 0px 2px 0px;
+    padding: 2px 8px;
+}
