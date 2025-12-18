@@ -1,4 +1,5 @@
-# dotfiles
+# Dotfiles
+
 My config files for:
 - hyprland
 - hyprpaper
