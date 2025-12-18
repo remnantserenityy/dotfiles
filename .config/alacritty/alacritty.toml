@@ -1,0 +1,8 @@
+[general]
+import = ["rosebones_dark.toml"]
+
+[font]
+size = 11
+
+[font.normal]
+family = "MapleMono"
