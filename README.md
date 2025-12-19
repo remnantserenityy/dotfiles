@@ -15,3 +15,4 @@ My config files for:
   
 ## Firefox
 Minimalistic, qutebrowser inspired "rice".
+Heavily copypasted from https://github.com/adolfgatonegro/firefox-minimal
