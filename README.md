@@ -14,4 +14,4 @@ My config files for:
 - neovim
   
 ## Firefox
--qutebrowser inspired
+Minimalistic, qutebrowser inspired "rice".
