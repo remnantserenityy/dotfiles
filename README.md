@@ -6,7 +6,7 @@ My config files for:
 - hyprlock
 - waybar
 - qutebrowser
-- firefox
+- firefox user.js: arkenfox
 - rofi
 - dunst
 - btop
