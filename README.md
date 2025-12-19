@@ -5,6 +5,7 @@ My config files for:
 - hyprpaper
 - hyprlock
 - waybar
+- firefox
 - qutebrowser
 - rofi
 - dunst
