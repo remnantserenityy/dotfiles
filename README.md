@@ -2,11 +2,9 @@
 
 My config files for:
 - hyprland
-- hyprpaper
 - hyprlock
 - waybar
-- firefox
-- qutebrowser
+- firefox, qutebrowser
 - rofi
 - dunst
 - btop
