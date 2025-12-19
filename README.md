@@ -11,11 +11,12 @@ My config files for:
 - dunst
 - btop
 - alacritty
-- neovim
+- neovim (basically just kickstart.nvim)
   
 ## Firefox
 
 Minimalistic, qutebrowser inspired "rice".
+
 Heavily copypasted from https://github.com/adolfgatonegro/firefox-minimal
 
 user.js: https://github.com/arkenfox/user.js/
