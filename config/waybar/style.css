@@ -11,7 +11,7 @@
 }
 
 window#waybar {
-    background-color: #000000;
+    background-color: @base;
     color: @rose;
 }
 
@@ -23,13 +23,12 @@ tooltip {
 #pulseaudio {
     margin: 6px 6px 2px 0px;
     padding: 2px 8px;
-    /*color: @rose;*/
-    color: #b77e64;
+    color: @gold;
 }
 
 #workspaces {
     margin: 6px 0px 2px 6px;
-    color: @iris;
+    color: @text;
     border-radius: 6px;
 }
 
@@ -37,7 +36,7 @@ tooltip {
     all: initial;
     min-width: 0;
     padding: 6px 6px;
-    color: @iris;
+    color: @text;
 }
 
 #workspaces button.focused {
@@ -56,10 +55,9 @@ tooltip {
 
 
 #clock {
-	color: #aa0507;
-	/*color: #de6e7c;*/
 	font-weight: 900;
 	font-size: 25px;
+	color: @pine;
 }
 
 
@@ -75,20 +73,23 @@ tooltip {
 #network{
     margin: 6px 0px 2px 0px;
     padding: 2px 8px;
+    color: @rose;
 }
 
 #cpu{
     margin: 6px 0px 2px 0px;
     padding: 2px 8px;
+    color: @rose;
 }
 
 #battery{
     margin: 6px 0px 2px 0px;
     padding: 2px 8px;
-    color: @teal;
+    color: @rose;
 }
 
 #memory{
     margin: 6px 0px 2px 0px;
     padding: 2px 8px;
+    color: @rose;
 }

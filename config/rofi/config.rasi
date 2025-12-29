@@ -1,7 +1,8 @@
 configuration {
   // General
   mode: "drun,window";
-	font: "MapleMono 12";
+  font: "MapleMono 12";
+  font-weight: 900;
   show-icons: false;
 
   display-drun: "";
@@ -23,11 +24,11 @@ configuration {
 
 * {
 	bg: #191724;
-	bg-alt: #21202e;
-	bg-selected: #6e6a86;
+	bg-alt: #191724;
+	bg-selected: #1f1d2e;
 
-	fg: #c4a7e7;
-	fg-alt: #e0def4;
+	fg: #e2a9a6;
+	fg-selected: #31748f;
 
   // these don't work with picom :/
   // borders are done through the wm
@@ -45,11 +46,11 @@ window {
 element {
   padding: 8 12;
   background-color: transparent;
-  text-color: @fg-alt;
+  text-color: @fg;
 }
 
 element selected {
-  text-color: @fg;
+  text-color: @fg-selected;
   background-color: @bg-selected;
 }
 
@@ -73,7 +74,7 @@ inputbar {
 listview {
   background-color: @bg;
   columns: 1;
-  lines: 10;
+  lines: 6;
 }
 
 mainbox {
@@ -82,8 +83,9 @@ mainbox {
 }
 
 prompt {
-  enabled: true;
+  enabled: false;
   padding: 12 0 0 12;
   background-color: @bg-alt;
   text-color: @fg;
 }
+
